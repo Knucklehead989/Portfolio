@@ -97,7 +97,7 @@ function showSlides(n) {
     var dots = document.getElementsByClassName("demo");
     var captionText = document.getElementById("caption");
     var desc = document.getElementById("desc");
-    var hehe = document.getElementById("hehe");
+    var hehe = document.getElementsByClassName("slider-text");
 
     if (n> slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
