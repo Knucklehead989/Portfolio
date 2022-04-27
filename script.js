@@ -97,7 +97,7 @@ function showSlides(n) {
     var dots = document.getElementsByClassName("demo");
     var captionText = document.getElementById("caption");
     var desc = document.getElementById("desc");
-    var hehe = document.getElementsByClassName("slider-desc");
+    var img = document.getElementsByClassName("img");
 
     if (n> slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
@@ -110,7 +110,7 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
-    desc.innerHTML = hehe[slideIndex-1].innerText;
+    desc.innerHTML = img[slideIndex-1].alt;
 }
 
 // smooth scrolling 
