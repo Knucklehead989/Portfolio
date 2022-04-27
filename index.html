@@ -26,8 +26,8 @@
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Sources</a></li>
                 <li><a href="#my-works" class="menu-btn">My Works</a></li>
+                <li><a href="#teams" class="menu-btn">Sources</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -104,26 +104,28 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Without any official training in the course, I learned all of my skills via the internet. Thanks to my tutors and friends who assisted me in learning the skills I needed for web development, programming, and ethical hacking. I've created websites, automated bots, and this portfolio, among other things....I consider myself a novice, having just been involved in this field for about a year. I've taken Angela YU's 100days of Python and 100days of Web Development Boot camp on Udemy, as well as ethical hacking courses from INE, Hack the Box, and Udemy. In addition, I used YouTube, ITSNP, freecodecamp.org, and stack overflow to improve my knowledge. In addition, I have sufficient skills and experience writing posts, blogs, and articles for websites for search engine optimization. I also have some hypnosis knowledge, however they aren't particularly strong. I've also worked with the Linux operating system firsthand. To find out more about me, please download my CV.</span></p>
-<button class="button" onclick="myFunction()" id="myBtn">Read more</button>
-
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-</script>
+                    <p>Without any official training in the course, I learned all of my skills via the internet. Thanks to my tutors and friends who assisted me in learning the skills I needed for web development, programming, and ethical hacking. I've created websites, automated bots, and this portfolio, among other things.
+                        <span id="dots" style="display: inline;">...</span>
+                        <span id="more" style="display: none;">Without any official training in the course, I learned all of my skills via the internet. Thanks to my tutors and friends who assisted me in learning the skills I needed for web development, programming, and ethical hacking. I've created websites, automated bots, and this portfolio, among other things....I consider myself a novice, having just been involved in this field for about a year. I've taken Angela YU's 100days of Python and 100days of Web Development Boot camp on Udemy, as well as ethical hacking courses from INE, Hack the Box, and Udemy. In addition, I used YouTube, ITSNP, freecodecamp.org, and stack overflow to improve my knowledge. In addition, I have sufficient skills and experience writing posts, blogs, and articles for websites for search engine optimization. I also have some hypnosis knowledge, however they aren't particularly strong. I've also worked with the Linux operating system firsthand. To find out more about me, please download my CV.</span>
+                    </p>
+                    <button class="button" onclick="myFunction()" id="myBtn">Read more</button>
+                    <script>
+                        function myFunction() {
+                          var dots = document.getElementById("dots");
+                          var moreText = document.getElementById("more");
+                          var btnText = document.getElementById("myBtn");
+                        
+                          if (dots.style.display === "none") {
+                            dots.style.display = "inline";
+                            btnText.innerHTML = "Read more"; 
+                            moreText.style.display = "none";
+                          } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Read less"; 
+                            moreText.style.display = "inline";
+                          }
+                        }
+                    </script>
                 </div>
                 <div class="column right">
                     <div class="bars">
