@@ -1316,6 +1316,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-auto {
   width: auto;
 }
