@@ -402,6 +402,9 @@ section .title::after{
 .view-box {
     z-index: 9 !important;
 }
+.img {
+  margin: auto;
+}
 
 /* teams section styling */
 .teams .title::after{
